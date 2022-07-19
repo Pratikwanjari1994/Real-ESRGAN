@@ -80,7 +80,7 @@ def main():
     if args.face_enhance:  # Use GFPGAN for face enhancement
         from gfpgan import GFPGANer
         face_enhancer = GFPGANer(
-            model_path='https://public-vigen-video.oss-cn-shanghai.aliyuncs.com/robin/models/GPEN-BFR-512.pth',
+            model_path='Https://public-vigen-video.oss-cn-shanghai.aliyuncs.com/robin/models/GPEN-BFR-512.pth',
             upscale=args.outscale,
             arch='clean',
             channel_multiplier=2,
